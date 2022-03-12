@@ -1,0 +1,36 @@
+
+@media screen and (max-width:768px) {
+    #about_txt h5{
+        font-size: 17px;
+        padding: 0% !important;
+    }
+    #about_txt p{
+        font-size: 14px;
+    }
+    #about_txt table{
+        font-size: 12px;
+    }
+    #categoryA .col,#categoryB .col, #categoryC .col, #categoryD .col{
+        height: 200px !important;
+    }
+    #offer div span{
+        padding: 4px !important;
+    } 
+    #offer h6{
+        width: 100%;
+        font-size: 90%;
+        padding: 0% !important;
+    }
+    #offer p{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    body .for{
+        height: 70vh;
+    }
+    .img_caption{
+        font-size: 15px;
+    }
+}

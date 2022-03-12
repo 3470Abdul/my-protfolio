@@ -1,0 +1,60 @@
+body .for{
+    width: 100%;
+    height: 100vh;
+}
+.for img{
+    width: 100%;
+    height: 100%;
+}
+#navbar{
+    position: absolute;
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.164);
+    
+}
+.img_caption, #Logos{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+#text{
+    border-right: 2px solid white;
+}
+#Logos{
+    top: 60%;
+    
+}
+#Logos div{
+    transition: .5s;
+}
+#Logos div:hover{
+    box-shadow: 1px 1px 6px 6px rgba(241, 241, 241, 0.178);
+}
+#Logos i{
+    font-size: 25px;
+}
+span i{
+    font-size: 35px;
+}
+
+h1{
+    font-weight: 900;
+}
+#btn_div button{
+    font-size: 15px;
+}
+#categoryB, #categoryC, #categoryD{
+   display: none;
+}
+#categoryA .col,#categoryB .col, #categoryC .col, #categoryD .col{
+    height: 450px !important;
+}
+#categoryA .col img, #categoryB .col img, #categoryC .col img, #categoryD .col img{
+    width: 100%;
+    height: 100%;
+}
+#small{
+    font-size: 14px;
+}
